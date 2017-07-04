@@ -13,29 +13,25 @@
 @testable import ___PROJECTNAME___
 import XCTest
 
-class ___VARIABLE_sceneName___InteractorTests: XCTestCase
-{
+class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
   // MARK: Subject under test
   
   var sut: ___VARIABLE_sceneName___Interactor!
   
   // MARK: Test lifecycle
   
-  override func setUp()
-  {
+  override func setUp() {
     super.setUp()
     setup___VARIABLE_sceneName___Interactor()
   }
   
-  override func tearDown()
-  {
+  override func tearDown() {
     super.tearDown()
   }
   
   // MARK: Test setup
   
-  func setup___VARIABLE_sceneName___Interactor()
-  {
+  func setup___VARIABLE_sceneName___Interactor() {
     sut = ___VARIABLE_sceneName___Interactor()
   }
   
@@ -43,8 +39,7 @@ class ___VARIABLE_sceneName___InteractorTests: XCTestCase
   
   // MARK: Tests
   
-  func testSomething()
-  {
+  func testSomething() {
     // Given
     
     // When
