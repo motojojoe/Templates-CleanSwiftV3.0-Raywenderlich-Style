@@ -9,6 +9,16 @@
 **Refactor** templates clean swift v3.0 conform The Official raywenderlich.com Swift Style Guide.
 https://github.com/raywenderlich/swift-style-guide
 
+Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
+
+```swift
+if user.isHappy {
+  // Do something
+} else {
+  // Do something else
+}
+```
+
 ## To learn more about Clean Swift and the VIP cycle, read:
 
 http://clean-swift.com/clean-swift-ios-architecture
