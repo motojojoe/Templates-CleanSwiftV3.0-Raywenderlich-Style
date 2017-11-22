@@ -4,9 +4,9 @@
   </a>
 </p>
 
-# Templates CleanSwift v3.0 Raywenderlich Style
+# Templates CleanSwift v3.0.2 Raywenderlich Style
 
-**Refactor** templates clean swift v3.0 conform The Official raywenderlich.com Swift Style Guide.
+**Refactor** templates clean swift v3.0.2 conform The Official raywenderlich.com Swift Style Guide.
 https://github.com/raywenderlich/swift-style-guide
 
 Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
