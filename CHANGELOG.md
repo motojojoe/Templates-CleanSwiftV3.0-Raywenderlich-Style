@@ -1,6 +1,17 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file
+
+## 3.0.2
+
+- Fixed @testable import for project names containing spaces
+
+## 3.0.1
+
+- Added example unit tests for the sample use case in:
+	- View controller
+	- Interactor
+	- Presenter
 
 ## 3.0.0
 
@@ -37,7 +48,7 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.0
 
-- Added **Unit Tests** template to generate XCTest unit test files for 
+- Added Unit Tests template to generate XCTest unit test files for:
 	- View controller
 	- Interactor
 	- Presenter
@@ -45,7 +56,7 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.0
 
-- Added the **Scene** template to generate the following Clean Swift components:
+- Added the Scene template to generate the following Clean Swift components:
 	- View Controller
 	- Interactor
 	- Presenter
@@ -53,4 +64,4 @@ All notable changes to this project will be documented in this file.
 	- Worker
 	- Models
 	- Configurator
-- These components can also be generated individually.
+- These components can also be generated individually

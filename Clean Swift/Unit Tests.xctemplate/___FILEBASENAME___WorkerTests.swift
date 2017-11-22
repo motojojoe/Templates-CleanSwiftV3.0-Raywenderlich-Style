@@ -10,7 +10,7 @@
 //  see http://clean-swift.com
 //
 
-@testable import ___PROJECTNAME___
+@testable import ___PROJECTNAMEASIDENTIFIER___
 import XCTest
 
 class ___VARIABLE_sceneName___WorkerTests: XCTestCase {

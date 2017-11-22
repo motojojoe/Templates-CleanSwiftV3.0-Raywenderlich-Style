@@ -10,7 +10,7 @@
 //  see http://clean-swift.com
 //
 
-@testable import ___PROJECTNAME___
+@testable import ___PROJECTNAMEASIDENTIFIER___
 import XCTest
 
 class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
@@ -37,13 +37,26 @@ class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
   
   // MARK: Test doubles
   
+  class ___VARIABLE_sceneName___DisplayLogicSpy: ___VARIABLE_sceneName___DisplayLogic {
+    var displaySomethingCalled = false
+    
+    func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel) {
+      displaySomethingCalled = true
+    }
+  }
+  
   // MARK: Tests
   
-  func testSomething() {
+  func testPresentSomething() {
     // Given
+    let spy = ___VARIABLE_sceneName___DisplayLogicSpy()
+    sut.viewController = spy
+    let response = ___VARIABLE_sceneName___.Something.Response()
     
     // When
+    sut.presentSomething(response: response)
     
     // Then
+    XCTAssertTrue(spy.displaySomethingCalled, "presentSomething(response:) should ask the view controller to display the result")
   }
 }
